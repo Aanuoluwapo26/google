@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Analytics</title>
+</head>
+<style>
+	
+ nav{
+ 		background-color: rgb(248 249 250);
+    	padding: 10px;
+    	/*border: 20px;*/
+    	height: 50px;
+        margin: -7px -7px;
+        display: flex;
+        /*box-shadow: 0px 4px 10px 1px rgb(212, 212, 212);
+ */       /* align-items: center; */
+    }
+    nav img{
+        margin-left: 10px;
+        width: 120px;
+        height: 100px;
+        position: absolute;
+        top: -9px;
+        left: 4px;
+    }
+
+/*
+    .analytics{
+    	font-size: 30px;
+    	position: absolute;
+    	right: 990px;
+    	bottom: 600px;
+
+    }
+*/
+    .next{
+    	box-shadow: 0px 0px 4px 0px black;
+    	margin-top: 15px;
+    	padding: 20px;
+    	background-color:rgb(255 119 0);
+    	color: white;
+    	font-family: tahoma;
+    	font-weight: 2px;
+    }
+
+    .learn{
+		display: flex;
+		flex-flow: row nowrap;
+		font-family: tahoma;
+
+    }
+
+    .dropdown{
+    	position: absolute;
+    	top: 400px;
+    	left: 51.5%;
+    }
+    .can{
+    	width: 50%;
+    	height: 100px;
+		font-family: tahoma;
+    	text-align: justify;
+		margin-right: 10px;
+		padding: 5px 40px ;
+    }
+
+   
+
+
+    .blogs{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-flow: row wrap;
+        background-color: blue;
+        margin-bottom: 20px;
+    }
+
+    .gac{
+    	text-align: left;
+    	color: white;
+    	margin-left: 30px;
+    	width: 300%;
+    	height: 10px;
+    }
+
+    .card{
+    	margin-top: 20px;
+
+        margin: 20px auto;
+        width: 300px;
+        height: 400PX;
+        border-radius: 15px;
+        box-shadow: 0 1px 3px 1px tomato;
+        background-color: rgb(248 249 250);
+    }
+    .card img{
+        z-index: -22;
+
+    }
+
+    .content{
+        padding: 20px;
+    }  
+
+    .jcc{
+		display: flex;
+		background-color: rgb(248 249 250);
+		padding: 20px;
+		margin-bottom: 20px;
+
+    }
+    .jcc img{
+    	width: 40%;
+    	height: 200px;
+    }
+
+   .jcontent{
+   		padding: 10px;
+   		 }
+
+   .jus{
+   		border-bottom: thick solid grey;
+   }
+
+
+
+    .ks{
+		display: flex;
+		background-color: rgb(248 249 250);
+		padding: 30px;
+		margin-bottom: 20px;
+
+
+    }
+    .ks img{
+    	width: 35%;
+    	height: 200px;
+    }
+
+   .kcontent{
+   		padding: 10px;
+   }
+
+   .kri{
+   	border-bottom: thick solid grey;
+   }
+
+    .av{
+		display: flex;
+		background-color: rgb(248 249 250);
+		padding: 30px;
+
+    }
+    .av img{
+    	width: 40%;
+    	height: 200px;
+    }
+
+   .acontent{
+   		padding: 10px;
+   	}
+
+   .ash{
+   	border-bottom: thick solid grey;
+   }
+
+    .blocks{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+   .getting{
+   			margin: 20px 15px 15px;
+   			width: 250px;
+   			height: 150px;
+   			border-radius: 0px;
+   			box-shadow: 0 1px 3px 1px grey;
+   			background-color: rgb(248 249 250);
+   			}
+
+   .getting img{
+   	z-index: 20px;
+   }
+
+
+.container{
+	 padding: 15px;
+}
+
+image{
+	height: 100px;
+	width: 100px;
+}
+
+
+
+    .additional{
+        display: flex;
+        flex-flow: row wrap;
+        border-top: thin solid black;
+   		border-bottom: thin solid black;
+   		background-color: rgb(248 249 250);
+
+    }
+
+    .additional img{
+   			/*image-rendering: center;*/
+   			z-index: 20px;
+   }
+
+   .gallery{
+   			margin: 20px 15px 15px;
+   			width: 200px;
+   			height: 120px;
+   			/*border-radius: 10px;*/
+   			/*box-shadow: 0 1px 3px 1px grey;*/
+   			background-color: rgb(248 249 250);
+   			background-color: white;
+   			   			}
+
+ 
+
+.con{
+	 padding: 15px;
+}
+
+
+       @media (max-width: 600px) {
+        .analytics{
+            display: none;
+        }
+ 
+
+</style>
+<body>
+
+<header>
+        <nav> 
+        	<p style="display: flex; align-items: left; text-decoration: none;"><img src="google.png" alt="logo" >Analytics Academy</p>
+          
+           <!--  <img src="google.png" alt="logo" >
+            <div class="Analytics">Analytics Academy</div> -->
+</nav>
+</header>
+		<div class="next">
+			These courses are about Universal Analytics, which will stop processing data on July 1, 2023. Learn about Google Analytics 4, our next-generation measurement solution, with <u>these free courses on Skillshop.</u>
+		</div>
+
+		<div class="learn">
+			
+			<div class="dropdown"><img src="dropdown.png" alt="" width="50px" height="50px" ></div>
+			<div class="can">
+				<h1>Learn analytics with free </h1>
+				<h1>online courses</h1>
+			<p>Analytics Academy helps you learn about Google's</p>
+			<p>measurement tools so that you can grow your business</p>
+			<p>Through intelligent data collection and analysis.</p></div>
+			<img src="ana.png" alt="hidden" width="50%" height="300px" >
+		</div>
+			
+
+
+		<div class="blogs"> 
+			<p><h1 class="gac">GOOGLE ACADEMY COURSE</h1></p>
+        <section class="card">
+            <img src="gg.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="gg.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="gg.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="gg.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="pp.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+        <section class="card">
+            <img src="pp.PNG" width="70px" height="60px" alt="">
+            <div class="content">
+                <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet illum aperiam vitae incidunt, laudantium perferendis molestiae quod laboriosam aliquam repellendus, dicta aliquid voluptate quasi, quos magni delectus adipisci earum eius.</p>
+            </div>
+        </section>
+    </div>
+    
+   			<h3 style="text-align: left; font-family: tahoma">MEET THE INSTRUCTOR</h3>
+<section class="jcc">
+			<img src="jcc.JPG" alt="hidden" width="20%" height="100px" >
+			<div class="jcontent">
+				<h1 class="jus">JUSTIN CUTRONI</h1>
+			<p>Justin's mission is to teach everyone how to use digital analytics for their business. With over ten years of industry experience, Justin now leads the Google Analytics Education team. Justin is an active participant in the digital analytics community. He publishes the blog Analytics Talk and has authored or co-authored three books on Google Analytics. In 2014, he was named the Digital Analytics Industry's Most Influential Contributor by the Digital Analytics Association.</p>
+			</div>
+			</section>
+		</div>
+
+<section class="ks">
+			<img src="ks.JPG" alt="hidden" width="20%" height="100px" >
+			<div class="kcontent">
+				<h1 class="kri">KRISTA SEIDEN</h1>
+			<p>Krista is a leader in digital analytics, advocating for best practices, and a frequent speaker at industry events. Krista co-chairs the San Francisco chapter of the Digital Analytics Association (DAA) and mentors for the Analysis Exchange. She won the 2014 DAA Rising Star Award and the 2015 DAA Practitioner of the Year Award.
+			</p>
+			</div>
+			</section>
+		</div>
+
+
+<section class="av">
+			<img src="avj.JPG" alt="hidden" width="20%" height="100px" >
+			<div class="acontent">
+				<h1 class="ash">ASHISH VIJ</h1>
+			<p>Ashish Vij is a Senior Specialist on Google Analytics 360 at Google. With over 12 years of experience, he works alongside Google’s advertising teams to design and implement measurement strategies for Google’s top tier clients. He was also responsible for developing key platform features along with deploying commercialization efforts for Google Analytics. Ashish is a measurement evangelist, and speaks to companies around the importance of implementing measurement as a focus for advertising.
+			</p>
+			</div>
+			</section>
+		</div>
+
+		<h3 style="text-align: center; font-family: tahoma">Analytics Mini-Courses on YouTube</h3>
+		<h4 style="text-align: left; font-family: tahoma">For an overview of other Google Marketing Platform Analytics products, check out the Analytics Mini-Courses on YouTube. There you can learn how to create your account; set up your first report, tag, or test; and use Google Analytics for Firebase, Google Tag Manager, Google Optimize, and more.</h4>
+
+
+<div class="blocks">
+<section class="getting" style="text-align: center;">
+            <img src="f1.png" width="50px" height="50px" alt="">
+            <div class="container">
+                <h3>Get started wiith google analytics for fire base</h3>
+           </div>
+        	</section>
+       
+   
+<section class="getting" style="text-align: center;">
+            <img src="bb.png" width="50px" height="50px" alt="">
+            <div class="container">
+                <h3>Get started with Google Tag Manager</h3>
+            </div>
+        	</section>
+        
+<section class="getting" style="text-align: center;">
+            <img src="gggg.png" width="50px" height="50px" alt="">
+            <div class="container">
+                <h3>Get started with Google Optimize</h3>
+            </div>
+        	</section>
+
+<section class="getting" style="text-align: center;">
+            <img src="env.png" width="50px" height="50px" alt="">
+            <div class="container">
+                <h3>Get started more google analtics playlist</h3>
+            </div>
+        	</section>
+    </div>
+
+  <div class="additional">
+                	<section class="gallery" style="text-align: center;">
+        		<img src="garrow.PNG" width="50px" height="30px" alt="">
+        		<div class="con">
+        	<h4>Google analytics</h4> <h4>Demo account</h4>
+        	</div>
+        	</section>
+
+        	<section class="gallery" style="text-align: center;">
+        		<img src="garrow.PNG" width="50px" height="30px" alt="">
+        		<div class="con">
+        	<h4>Google analytics</h4> <h4>Help center</h4>
+        	</div>
+        	</section>
+
+<section class="gallery" style="text-align: center;">
+        		<img src="youtubeicon.PNG" width="50px" height="30px" alt="">
+        		<div class="con">
+        	<h4>Google analytics</h4> <h4>YouTube Channel</h4>
+        	</div>
+        	</section>
+
+        	<section class="gallery" style="text-align: center;">
+        		<img src="blog.PNG" width="50px" height="30px" alt="">
+        		<div class="con">
+        	<h4>Google analytics</h4> <h4>Blogs</h4>
+        	</div>
+        	</section>
+
+<section class="gallery" style="text-align: center;">
+        		<img src="gggg.PNG" width="50px" height="30px" alt="">
+        		<div class="con">
+        	<h4>Google analytics</h4> <h4>Google Developer</h4>
+        	</div>
+        	</section>
+
+
+
+        	</div>
+        	<!-- <h4><img src="ana.png" alt="">Google analytics help center</h4>
+      		<h4><img src="youtube.png" alt=" ">Google analytics Help youtube channel</h4>
+      		<h4><img src="ana.png" alt=""  >Google analytics Blog</h4>
+       		<h4><img src="ana.png" alt=""  >Google analytics Google Developer</h4>
+       		 --></div>
+       
+        </div>
+</body>
+</html>
